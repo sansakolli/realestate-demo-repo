@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>చెల్లూరు రియల్టర్స్ | ప్రొఫెషనల్ వెబ్‌సైట్</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&family=Noto+Sans+Telugu:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Noto Sans Telugu', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .font-telugu-heading {
+            font-family: 'Ramabhadra', sans-serif;
+        }
+        .gradient-bg-secondary {
+            background: linear-gradient(90deg, #f97316, #ea580c);
+        }
+        .card-shadow {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        #main-header {
+            background-color: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            transition: background 0.4s ease-in-out;
+        }
+        .scrolled-shadow {
+             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <header id="main-header" class="fixed top-0 w-full z-50 text-white">
+        <div class="container mx-auto flex justify-center md:justify-between items-center p-4">
+            <a href="#home" class="flex items-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-house-heart-fill" viewBox="0 0 16 16"><path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708L7.293 1.5Z"/><path d="m10.273 14.16-4.5-4.5a.5.5 0 0 0-.707 0l-1.5 1.5a.5.5 0 0 0 0 .707l4.5 4.5a.5.5 0 0 0 .707 0l1.5-1.5a.5.5 0 0 0 0-.707Z"/></svg>
+                <h1 class="font-telugu-heading text-2xl md:text-3xl font-bold tracking-wider">చెల్లూరు రియల్టర్స్</h1>
+            </a>
+            <div class="hidden md:flex items-center gap-6">
+                <nav class="flex space-x-6 text-lg">
+                    <a href="#about" class="hover:text-amber-300 transition">మా ప్రత్యేకత</a>
+                    <a href="#properties" class="hover:text-amber-300 transition">ప్రాపర్టీలు</a>
+                    <a href="#contact" class="hover:text-amber-300 transition">కాంటాక్ట్</a>
+                </nav>
+                <a href="#contact" class="gradient-bg-secondary text-white font-bold py-2 px-5 rounded-full text-md shadow-lg hover:opacity-90 transition transform hover:scale-105 duration-300">
+                    సంప్రదించండి
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="relative text-white min-h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="relative z-10 container mx-auto text-center p-4">
+                <h3 class="font-telugu-heading text-2xl md:text-3xl tracking-widest text-amber-300">భూమితో పాటు భరోసాను అందిస్తాం</h3>
+                <h2 class="text-4xl md:text-7xl font-bold my-4 font-telugu-heading">భూమిపై మీ కలలకు...<br>మా నమ్మకమైన తోడు</h2>
+                <p class="max-w-3xl mx-auto text-lg md:text-xl mb-8">
+                    చెల్లూరు మరియు పరిసర ప్రాంతాలలో... భూమిని కొనాలన్నా, అమ్మాలన్నా, మీ నమ్మకానికి అసలైన చిరునామా. కేవలం లావాదేవీలు కాదు, జీవితకాల సంబంధాలను నిర్మిస్తాం.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <a href="tel:+910000000000" class="w-full sm:w-auto gradient-bg-secondary text-white font-bold py-3 px-8 rounded-full text-lg shadow-lg hover:opacity-90 transition transform hover:scale-105 duration-300">
+                        ఇప్పుడే కాల్ చేయండి
+                    </a>
+                    <a href="https://wa.me/910000000000?text=నమస్కారం,%20నేను%20మీ%20ప్రాపర్టీల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను." target="_blank" class="w-full sm:w-auto bg-white text-green-800 font-bold py-3 px-8 rounded-full text-lg shadow-lg hover:bg-gray-200 transition transform hover:scale-105 duration-300">
+                        WhatsAppలో మాట్లాడండి
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-16 bg-white">
+            <div class="container mx-auto px-4 text-center">
+                 <h2 class="font-telugu-heading text-4xl md:text-5xl font-bold text-gray-800">మా ప్రత్యేకత</h2>
+                 <p class="max-w-2xl mx-auto mt-4 text-lg text-gray-600">
+                    ప్రతి అడుగులో నిజాయితీ, ప్రతి మాటలో స్పష్టత, ప్రతి డీల్‌లో మీకే ఉత్తమమైన లాభం... ఇదే మా హామీ.
+                 </p>
+                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                     <div class="p-6">
+                         <div class="text-5xl text-green-700 mb-4">🤝</div>
+                         <h3 class="text-2xl font-bold mb-2">నిజాయితీయే మా పునాది</h3>
+                         <p class="text-gray-600">పత్రాల విషయంలో 100% పారదర్శకత. ఎలాంటి దాపరికాలు లేకుండా, భూమి యొక్క పూర్తి వివరాలు మీకు అందించి, మనశ్శాంతితో పెట్టుబడి పెట్టేలా చూస్తాం.</p>
+                     </div>
+                      <div class="p-6">
+                         <div class="text-5xl text-green-700 mb-4">🗺️</div>
+                         <h3 class="text-2xl font-bold mb-2">స్థానికతపై తిరుగులేని పట్టు</h3>
+                         <p class="text-gray-600">చెల్లూరు మాకు ఊరు కాదు, ఇల్లు. ఇక్కడి భూమి విలువ, భవిష్యత్తు అంచనాలు, చట్టపరమైన అంశాలపై మాకున్న అవగాహన మీ పెట్టుబడికి శ్రీరామరక్ష.</p>
+                     </div>
+                      <div class="p-6">
+                         <div class="text-5xl text-green-700 mb-4">💰</div>
+                         <h3 class="text-2xl font-bold mb-2">మీకే లాభం, మాకే గౌరవం</h3>
+                         <p class="text-gray-600">అమ్మేవారికి సరైన రేటు, కొనేవారికి అందుబాటు ధర. ఇద్దరి ప్రయోజనాలను దృష్టిలో ఉంచుకుని, ఉత్తమమైన డీల్ కుదర్చడమే మా లక్ష్యం.</p>
+                     </div>
+                 </div>
+            </div>
+        </section>
+
+        <section id="services" class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="font-telugu-heading text-4xl md:text-5xl font-bold text-gray-800">మేము అందించే సేవలు</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+                    <div class="bg-white p-6 rounded-lg card-shadow text-center transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-xl font-bold text-green-800">వ్యవసాయ భూముల క్రయవిక్రయాలు</h3>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg card-shadow text-center transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-xl font-bold text-green-800">వెంచర్ ప్లాట్లు & ఇళ్ల స్థలాలు</h3>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg card-shadow text-center transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-xl font-bold text-green-800">ల్యాండ్ డెవలప్‌మెంట్ సలహాలు</h3>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg card-shadow text-center transform hover:-translate-y-2 transition duration-300">
+                        <h3 class="text-xl font-bold text-green-800">ఉచిత లీగల్ మరియు డాక్యుమెంటేషన్ సహాయం</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="properties" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="font-telugu-heading text-4xl md:text-5xl font-bold text-gray-800 text-center">అమ్మకానికి సిద్ధంగా ఉన్న ప్రాపర్టీలు</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+                    <div class="bg-gray-50 rounded-lg overflow-hidden card-shadow">
+                        <img src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Property 1" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-green-900">భవిష్యత్తుకు బంగారు బాట - NH-16కు సమీపంలో 5 ఎకరాలు</h3>
+                            <a href="https://wa.me/910000000000?text=నమస్కారం,%20NH-16%20దగ్గర%205%20ఎకరాల%20భూమి%20వివరాలు%20కావాలి." target="_blank" class="mt-4 inline-block gradient-bg-secondary text-white font-bold py-2 px-6 rounded-full hover:opacity-90 transition">వివరాలు తెలుసుకోండి</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg overflow-hidden card-shadow">
+                        <img src="https://images.pexels.com/photos/259580/pexels-photo-259580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Property 2" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-green-900">మీ కలల సౌధం కోసం - గ్రామంలో 200 గజాల నివాస స్థలం</h3>
+                           <a href="https://wa.me/910000000000?text=నమస్కారం,%20200%20గజాల%20ఇళ్ల%20స్థలం%20వివరాలు%20కావాలి." target="_blank" class="mt-4 inline-block gradient-bg-secondary text-white font-bold py-2 px-6 rounded-full hover:opacity-90 transition">వివరాలు తెలుసుకోండి</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 rounded-lg overflow-hidden card-shadow">
+                        <img src="https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Property 3" class="w-full h-56 object-cover">
+                         <div class="p-6">
+                            <h3 class="text-2xl font-bold text-green-900">పెట్టుబడికి సరైనది - ప్రీమియం వెంచర్‌లో కార్నర్ ప్లాట్</h3>
+                           <a href="https://wa.me/910000000000?text=నమస్కారం,%20వెంచర్%20కార్నర్%20ప్లాట్%20వివరాలు%20కావాలి." target="_blank" class="mt-4 inline-block gradient-bg-secondary text-white font-bold py-2 px-6 rounded-full hover:opacity-90 transition">వివరాలు తెలుసుకోండి</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-green-800 text-white py-16">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="font-telugu-heading text-4xl md:text-5xl font-bold">సరైన పెట్టుబడికి ఇదే సరైన సమయం!</h2>
+                <p class="max-w-xl mx-auto mt-4 text-lg">
+                    మరిన్ని వివరాలకు, భూమిని సందర్శించడానికి ఇప్పుడే మాకు కాల్ చేయండి. మీ కలను నిజం చేసే మొదటి అడుగు వేయండి.
+                </p>
+                <div class="mt-8">
+                     <a href="tel:+910000000000" class="gradient-bg-secondary text-white font-bold py-3 px-8 rounded-full text-xl shadow-lg hover:opacity-90 transition transform hover:scale-105 duration-300">
+                        శ్రీ. M. వెంకటేశ్వర రావు: +91 00000 00000
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm shadow-t-lg z-50 p-2 border-t border-gray-200">
+        <div class="flex justify-around items-center">
+            <a href="tel:+910000000000" class="flex flex-col items-center text-green-700 font-semibold"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.28 1.465l-2.135 2.136a11.942 11.942 0 0 0 6.014 6.014l2.136-2.135a1.745 1.745 0 0 1 1.465.28l2.298 1.793c.43.334.621.93.42 1.45l-1.011.674a1.745 1.745 0 0 1-1.846.335a14.144 14.144 0 0 1-6.43-6.43A1.745 1.745 0 0 1 .335 4.918l.674-1.011a1.745 1.745 0 0 1 1.45-.427z"/><path fill-rule="evenodd" d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/></svg><span class="text-xs mt-1">కాల్ చేయండి</span></a>
+            <a href="https://wa.me/910000000000?text=నమస్కారం" target="_blank" class="flex flex-col items-center text-green-700 font-semibold"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg><span class="text-xs mt-1">WhatsApp</span></a>
+        </div>
+    </div>
+    
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center px-4">
+            <p>&copy; 2025 చెల్లూరు రియల్టర్స్. సర్వహక్కులు ప్రత్యేకించబడినవి.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const header = document.getElementById('main-header');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    header.style.background = 'linear-gradient(180deg, #064e3b 90%, rgba(6, 78, 59, 0) 100%)';
+                    header.style.backgroundColor = ''; 
+                    header.style.backdropFilter = 'none';
+                    header.style.webkitBackdropFilter = 'none';
+                    header.classList.add('scrolled-shadow');
+                } else {
+                    header.style.background = '';
+                    header.style.backgroundColor = 'rgba(0, 0, 0, 0.2)'; 
+                    header.style.backdropFilter = 'blur(10px)';
+                    header.style.webkitBackdropFilter = 'blur(10px)';
+                    header.classList.remove('scrolled-shadow');
+                }
+            }, { passive: true });
+        });
+    </script>
+
+</body>
+</html>
+
